@@ -1,5 +1,5 @@
 # Valant1s Terra Config
-This repository contains a custom config pack with new biomes for the [Terra World Generator](https://github.com/PolyhedralDev/Terra).
+This repository contains a config pack providing new biomes for the [Terra World Generator](https://github.com/PolyhedralDev/Terra).
 
 See the default Terra config repository [here](https://github.com/PolyhedralDev/Terra).
 
