@@ -1,6 +1,7 @@
 # Valant1s Terra Config
+This repository contains a custom config pack for the [Terra World Generator](https://github.com/PolyhedralDev/Terra).
 
-This repository extends PolyhedralDevs Terra world generator with custom biomes and structures.
+See the default Terra config repository [here](https://github.com/PolyhedralDev/Terra).
 
 ## Custom Biomes
 ### Tropical Bay
