@@ -1,0 +1,40 @@
+id: Valant1s_Custom_Pack
+author: Valant1s
+version: 1.0.0
+grids:
+  - BEACH
+
+frequencies:
+  zone: 2048
+
+blend:
+  enable: true
+  frequency: 0.1
+  amplitude: 4
+erode:
+  enable: true
+  frequency: 0.001
+  threshold: 0.0015
+  octaves: 5
+  grid: "BIOME:RIVER"
+vanilla:
+  mobs: true
+noise:
+  noise2:
+    dimensions: 2
+    type: OpenSimplex2
+    frequency: 0.0075
+    fractal:
+      type: FBm
+      octaves: 5
+  noise3:
+    dimensions: 3
+    type: OpenSimplex2
+    frequency: 0.0075
+    fractal:
+      type: FBm
+      octaves: 5
+locatable:
+  STRONGHOLD: STRONGHOLD
+variables:
+  base: 63

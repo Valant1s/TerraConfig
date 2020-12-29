@@ -1,0 +1,70 @@
+id: "CAVE_TROPICAL_BEACH"
+step: 1
+length:
+  min: 10
+  max: 20
+recalculate-direction:
+  min: 5
+  max: 5
+start:
+  x: 1
+  y: 0
+  z: 1
+  radius:
+    x: "(((rand(seed) + 1)*2+1) * if(max(rand(seed+1)-0.5, 0), 1, 1.25))*3/4"
+    y: "((rand(seed) + 1)*2+1)*2"
+    z: "(((rand(seed) + 1)*2+1) * if(max(rand(seed+1)-0.5, 0), 1, 1.25))*3/4"
+  height:
+    min: 58
+    max: 58
+cut:
+  top: 0
+  bottom: 16
+mutate:
+  x: 1
+  y: 10
+  z: 1
+  radius: 0.5
+
+
+
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:water": 1 }
+        y: 62
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:diorite": 1, "minecraft:white_concrete": 1, "minecraft:white_concrete_powder": 1}
+        y: 255
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:diorite": 1, "minecraft:white_concrete": 1, "minecraft:white_concrete_powder": 1}
+        y: 255
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+      - "minecraft:white_concrete"
+      - "minecraft:white_concrete_powder"
+      - "minecraft:diorite"
+      - "minecraft:sand"
+      - "mindecraft:gravel"
+    layers:
+      - materials: { "minecraft:sand": 5, "minecraft:gravel": 1 }
+        y: 255

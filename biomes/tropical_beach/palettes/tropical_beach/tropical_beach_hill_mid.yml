@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:air": 3
+      - "minecraft:jungle_leaves[persistent=true]": 1
+    layers: 1
+  - materials:
+      - "minecraft:diorite": 1
+      - "minecraft:white_concrete_powder": 1
+      - "minecraft:white_concrete": 1
+    layers: 4
+  - materials:
+      - "minecraft:diorite": 1
+    layers: 10
+id: "TROPICAL_BEACH_HILL_MID"

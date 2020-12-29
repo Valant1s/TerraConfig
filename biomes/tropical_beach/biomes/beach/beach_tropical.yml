@@ -1,0 +1,43 @@
+noise-equation: "if(
+  max(y-51, 0),
+  if(
+    max(y-64, 0),
+    if(
+      max(y-84, 0),
+      if(
+        max(y-104, 0),
+        0,
+        -((y / 33)^2) + 4/6 + noise2(x, z)*11),
+      -((y / 33)^2) + 4/6 + noise2(x, z)*12),
+    -((y / 60)^2) + 1 + noise2(x, z)/2),
+  1)"
+
+extends: "BASIC_ORES"
+id: "TROPICAL_BEACH"
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - TROPICAL_BEACH_BOTTOM: 59
+  - TROPICAL_BEACH_BEACH: 64
+  - TROPICAL_BEACH_HILL_LOW: 70
+  - TROPICAL_BEACH_HILL_MID: 80
+  - TROPICAL_BEACH_HILL_TOP: 255
+vanilla: BEACH
+
+structures:
+  - STRONGHOLD
+  - DUNGEON
+
+trees:
+  - density: 50
+    items:
+      - JUNGLE_BUSH: 25
+      - PALM: 1
+    y:
+      min: 62
+      max: 92
+
+carving:
+  CAVE_TROPICAL_BEACH: 1
