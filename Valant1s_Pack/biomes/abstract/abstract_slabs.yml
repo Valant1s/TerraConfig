@@ -1,0 +1,20 @@
+id: "ABSTRACT_SLABS"
+abstract: true
+
+slabs:
+  enable: true
+  threshold: 0.0075
+  palettes:
+    "minecraft:red_sand": "BLOCK:minecraft:red_sandstone_slab"
+    "minecraft:stone": "BLOCK:minecraft:stone_slab"
+    "minecraft:cobblestone": "BLOCK:minecraft:cobblestone_slab"
+    "minecraft:sand": "BLOCK:minecraft:sandstone_slab"
+    "minecraft:mossy_cobblestone": "BLOCK:minecraft:mossy_cobblestone_slab"
+    "minecraft:snow_block": "SNOW_LAYERS"
+  use-stairs-if-available: true
+  stair-palettes:
+    "minecraft:red_sand": "BLOCK:minecraft:red_sandstone_stairs"
+    "minecraft:stone": "BLOCK:minecraft:stone_stairs"
+    "minecraft:cobblestone": "BLOCK:minecraft:cobblestone_stairs"
+    "minecraft:sand": "BLOCK:minecraft:sandstone_stairs"
+    "minecraft:mossy_cobblestone": "BLOCK:minecraft:mossy_cobblestone_stairs"

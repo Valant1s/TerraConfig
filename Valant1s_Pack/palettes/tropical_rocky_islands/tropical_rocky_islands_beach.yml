@@ -1,3 +1,4 @@
+id: "TROPICAL_ROCKY_ISLANDS_BEACH"
 layers:
   - materials:
       - "minecraft:sand": 5
@@ -9,4 +10,3 @@ layers:
   - materials:
       - "minecraft:stone": 1
     layers: 1
-id: "TROPICAL_BEACH_BEACH"

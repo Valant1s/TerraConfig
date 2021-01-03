@@ -1,4 +1,0 @@
-grid:
-  - [ "TROPICAL_BEACH" ]
-id: "BEACH"
-extends: GRID_FREQUENCIES

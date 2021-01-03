@@ -1,0 +1,4 @@
+grid:
+  - [ "TROPICAL_ROCKY_ISLANDS" ]
+id: "OCEAN_WARM"
+extends: GRID_FREQUENCIES

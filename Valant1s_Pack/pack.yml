@@ -1,8 +1,8 @@
-id: Valant1s_Biomes
+id: Valant1s_Pack
 author: Valant1s
 version: 1.0.0
 grids:
-  - BEACH
+  - OCEAN_WARM
 
 frequencies:
   zone: 2048
