@@ -1,0 +1,6 @@
+id: PALM
+scripts:
+  "Palm_1": 1
+y-offset: 0
+spawnable:
+  - "minecraft:sand"
