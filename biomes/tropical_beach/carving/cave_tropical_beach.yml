@@ -64,7 +64,7 @@ palette:
       - "minecraft:white_concrete_powder"
       - "minecraft:diorite"
       - "minecraft:sand"
-      - "mindecraft:gravel"
+      - "minecraft:gravel"
     layers:
       - materials: { "minecraft:sand": 5, "minecraft:gravel": 1 }
         y: 255
