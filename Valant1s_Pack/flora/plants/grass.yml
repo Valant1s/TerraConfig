@@ -1,0 +1,15 @@
+layers:
+  - materials:
+      - "minecraft:grass": 1
+    layers: 1
+id: "GRASS"
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"

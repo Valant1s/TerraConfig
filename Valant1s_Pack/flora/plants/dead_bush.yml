@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:dead_bush": 1
+    layers: 1
+id: "DEAD_BUSH"
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+replaceable:
+  - "minecraft:air"
