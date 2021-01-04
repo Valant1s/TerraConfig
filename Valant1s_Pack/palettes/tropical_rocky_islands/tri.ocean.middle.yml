@@ -1,0 +1,12 @@
+id: "TROPICAL_ROCKY_ISLANDS_MIDDLE_OCEAN"
+layers:
+  - materials:
+      - "minecraft:sand": 2
+      - "minecraft:gravel": 1
+    layers: 1
+  - materials:
+      - "minecraft:sand": 1
+    layers: 2
+  - materials:
+      - "minecraft:stone": 1
+    layers: 1
