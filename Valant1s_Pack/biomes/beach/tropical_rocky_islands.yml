@@ -7,7 +7,7 @@ noise-equation: "if(
     if(
       max(y-84, 0),
       if(
-        max(y-104, 0),
+        max(y-120, 0),
         0,
         -((y / 33)^2) + 4/6 + noise2(x, z)*11),
       -((y / 33)^2) + 4/6 + noise2(x, z)*12),
@@ -35,3 +35,24 @@ trees:
     y:
       min: 62
       max: 65
+
+flora:
+  - density: 25
+    y:
+      min: 30
+      max: 61
+    simplex-frequency: 0.05
+    items:
+      - TALL_SEAGRASS: 1
+      - SEAGRASS: 3
+      - KELP_SHORT: 5
+  - density: 10
+    y:
+      min: 61
+      max: 255
+    items:
+      - SMALL_ROCK: 1
+      - FERN: 1
+      - GRASS: 1
+      - TALL_GRASS: 1
+      - DEAD_BUSH: 1
