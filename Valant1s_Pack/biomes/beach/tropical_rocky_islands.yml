@@ -29,12 +29,18 @@ palette:
 vanilla: BEACH
 
 trees:
-  - density: 0.1
+  - density: 0.5
     items:
       - PALM: 1
     y:
       min: 62
       max: 65
+  - density: 10
+    items:
+      - PALM_SMALL: 1
+    y:
+      min: 65
+      max: 150
 
 flora:
   - density: 25

@@ -1,0 +1,18 @@
+id: PALM_SMALL
+scripts:
+ - "Palm_Small_1": 1
+ - "Palm_Small_2": 1
+ - "Palm_Small_3": 1
+ - "Palm_Small_4": 1
+ - "Palm_Small_5": 1
+y-offset: 0
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"
