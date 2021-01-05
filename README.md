@@ -6,3 +6,7 @@ See the default Terra config repository [here](https://github.com/PolyhedralDev/
 ## Custom Biomes
 ### Tropical Rocky Islands
 ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rocky_Islands.png?raw=true)
+
+### Tropical Rainforest
+![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rainforest_1.png?raw=true)
+![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rainforest_2.png?raw=true)
