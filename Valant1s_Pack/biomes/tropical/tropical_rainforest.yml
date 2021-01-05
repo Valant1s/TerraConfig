@@ -1,0 +1,84 @@
+id: "TROPICAL_RAINFOREST"
+extends: "ABSTRACT_ORES"
+vanilla: JUNGLE
+
+noise-equation: 
+  "((-((y / base)^2)) + 1) + |(noise2(x/1.5, z/1.5)+0.25)|/3"
+elevation:
+  equation:
+    "0.15*min(
+      floor(5*max(noise2(x/1.5, z/1.5) + 0.25, 0)),
+      3
+    )
+    +
+    if(
+      max(noise2(x/1.5, z/1.5)+0.05, 0),
+      (noise2(x*2,z*2))*0.55,
+      0
+    )"
+  interpolation: true
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - TROPICAL_OCEAN_LOWER: 54
+  - TROPICAL_OCEAN_MIDDLE: 59
+  - TROPICAL_BEACH_UPPER: 62
+  - TROPICAL_CLIFF: 255
+
+trees:
+  - density: 0.5
+    items:
+      - PALM: 1
+    y:
+      min: 62
+      max: 65
+  - density: 10
+    items:
+      - PALM_SMALL: 1
+    y:
+      min: 64
+      max: 150
+  - density: 1
+    items:
+      - WILLOW_LARGE: 1
+    y:
+      min: 63
+      max: 65
+  - density: 0.5
+    items:
+      - WILLOW: 1
+    y:
+      min: 63
+      max: 150
+
+flora:
+  - density: 25
+    y:
+      min: 30
+      max: 61
+    simplex-frequency: 0.05
+    items:
+      - TALL_SEAGRASS: 1
+      - SEAGRASS: 3
+      - KELP_SHORT: 5
+  - density: 50
+    y:
+      min: 61
+      max: 255
+    items:
+      - SMALL_ROCK: 1
+      - FERN: 20
+      - GRASS: 30
+      - TALL_GRASS: 25
+      - ALLIUM: 1
+      - AZURE_BLUET: 1
+      - BLUE_ORCHID: 1
+      - CORNFLOWER: 1
+      - DANDELION: 1
+      - LILY_OF_THE_VALLEY: 1
+      - POPPY: 1
+      - CRIMSON_ROOTS: 1
+      - WARPED_ROOTS: 1

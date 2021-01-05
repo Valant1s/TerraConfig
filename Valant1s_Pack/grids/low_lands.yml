@@ -1,0 +1,4 @@
+grid:
+  - [ "TROPICAL_RAINFOREST" ]
+id: "LOW_LANDS"
+extends: GRID_FREQUENCIES

@@ -1,0 +1,17 @@
+id: WILLOW
+scripts:
+  "Willow_1": 1
+  "Willow_2": 1
+  "Willow_3": 1
+  "Willow_4": 1
+y-offset: 0
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"

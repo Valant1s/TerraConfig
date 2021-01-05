@@ -2,14 +2,15 @@ id: Valant1s_Pack
 author: Valant1s
 version: 1.0.0
 grids:
-  - OCEAN_WARM
+  - ISLANDS
+  - LOW_LANDS
 
 frequencies:
-  zone: 2048
+  zone: 512
 
 blend:
   enable: true
-  frequency: 0.1
+  frequency: 0.005
   amplitude: 4
 erode:
   enable: true

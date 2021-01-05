@@ -1,4 +1,4 @@
-id: "TROPICAL_ROCKY_ISLANDS_UPPER_OCEAN"
+id: "TROPICAL_OCEAN_UPPER"
 layers:
   - materials:
       - "minecraft:sand": 5

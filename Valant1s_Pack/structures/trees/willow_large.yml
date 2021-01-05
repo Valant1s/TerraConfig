@@ -1,0 +1,18 @@
+id: WILLOW_LARGE
+scripts:
+  "Willow_Large_1": 1
+  "Willow_Large_2": 1
+  "Willow_Large_3": 1
+  "Willow_Large_4": 1
+  "Willow_Large_5": 1
+y-offset: -2
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"

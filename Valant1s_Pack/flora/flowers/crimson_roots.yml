@@ -1,0 +1,15 @@
+layers:
+  - materials:
+      - "minecraft:crimson_roots": 1
+    layers: 1
+id: "CRIMSON_ROOTS"
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"
