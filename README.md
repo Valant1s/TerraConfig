@@ -10,3 +10,8 @@ See the default Terra config repository [here](https://github.com/PolyhedralDev/
 ### Tropical Rainforest
 ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rainforest_1.png?raw=true)
 ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rainforest_2.png?raw=true)
+
+## Credits
+Thanks to the following people for providing maps and schematics for custom structures:
+- Trees and Rocks by [Eremilion](https://www.planetminecraft.com/member/eremilion/)
+- Palms by [Sweden223344455](https://www.planetminecraft.com/member/sweden223344455/)
