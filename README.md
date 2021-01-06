@@ -4,22 +4,25 @@ See the default Terra config repository [here](https://github.com/PolyhedralDev/
 
 ![](https://github.com/Valant1s/TerraConfig/blob/main/img/preview.png?raw=true)
 
-
-
-
-
 ## Biomes
 <details>
-  <summary>Tropical Rocky Islands</summary>
+  <summary>Tropical rocky islands</summary>
 
   ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rocky_Islands.png?raw=true)
 </details>
 
 <details>
-  <summary>Tropical Rainforest</summary>
+  <summary>Tropical dry broadleaf forest</summary>
 
-  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rainforest_1.png?raw=true)
-  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Rainforest_2.png?raw=true)
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Dry_Broadleaf_Forest_1.png?raw=true)
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Dry_Broadleaf_Forest_2.png?raw=true)
+</details>
+
+<details>
+  <summary>Mangrove</summary>
+
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Mangrove_1.png?raw=true)
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Mangrove_2.png?raw=true)
 </details>
 
 ## Credits
