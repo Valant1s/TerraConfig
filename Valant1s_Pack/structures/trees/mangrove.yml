@@ -1,0 +1,24 @@
+id: MANGROVE
+scripts:
+  "Mangrove_1": 1
+  "Mangrove_2": 1
+  "Mangrove_3": 1
+  "Mangrove_4": 1
+  "Mangrove_5": 1
+  "Mangrove_6": 1
+  "Mangrove_7": 1
+  "Mangrove_8": 1
+  "Mangrove_9": 1
+  "Mangrove_10": 1
+  "Mangrove_11": 1
+  "Mangrove_12": 1
+  "Mangrove_13": 1
+
+y-offset: -2
+spawnable:
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:podzol"
+  - "minecraft:grass_path"
+replaceable:
+  - "minecraft:water"
