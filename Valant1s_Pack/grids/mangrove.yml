@@ -1,0 +1,4 @@
+grid:
+  - [ "MANGROVE" ]
+id: "MANGROVE"
+extends: GRID_FREQUENCIES

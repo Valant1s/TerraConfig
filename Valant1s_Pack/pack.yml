@@ -3,10 +3,11 @@ author: Valant1s
 version: 1.0.0
 grids:
   - ISLANDS
+  - MANGROVE
   - LOW_LANDS
 
 frequencies:
-  zone: 512
+  zone: 2048
 
 blend:
   enable: true
