@@ -1,0 +1,18 @@
+id: JUNGLE_EMERGENT
+scripts:
+  "Jungle_Giant_1": 1
+  "Jungle_Giant_2": 1
+  "Jungle_Giant_3": 1
+y-offset: -4
+
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+
+replaceable:
+  - "minecraft:air"

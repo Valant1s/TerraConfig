@@ -1,0 +1,21 @@
+id: JUNGLE_CANOPY
+scripts:
+ "Jungle_1": 1
+ "Jungle_2": 1
+ "Jungle_3": 1
+ "Jungle_4": 1
+
+y-offset: -2
+
+
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+
+replaceable:
+  - "minecraft:air"
