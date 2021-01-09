@@ -5,6 +5,10 @@ grids:
   - ISLANDS
   - MANGROVE
   - LOW_LANDS
+  - LOW_LANDS
+  - LOW_LANDS
+  - LOW_LANDS
+  - LOW_LANDS
 
 frequencies:
   zone: 2048
@@ -40,3 +44,5 @@ locatable:
   STRONGHOLD: STRONGHOLD
 variables:
   base: 63
+#disable:
+#  sapling: true
