@@ -24,6 +24,7 @@ See the default Terra config repository [here](https://github.com/PolyhedralDev/
   ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_1.png?raw=true)
   ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_2.png?raw=true)
   ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_3.png?raw=true)
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_4.png?raw=true)
 </details>
 
 <details>
