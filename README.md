@@ -19,6 +19,14 @@ See the default Terra config repository [here](https://github.com/PolyhedralDev/
 </details>
 
 <details>
+  <summary>Tropical moist broadleaf forest</summary>
+
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_1.png?raw=true)
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_2.png?raw=true)
+  ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Tropical_Moist_Broadleaf_Forest_3.png?raw=true)
+</details>
+
+<details>
   <summary>Mangrove</summary>
 
   ![](https://github.com/Valant1s/TerraConfig/blob/main/img/Mangrove_1.png?raw=true)
