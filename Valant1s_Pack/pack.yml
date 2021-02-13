@@ -1,30 +1,35 @@
 id: Valant1s_Pack
-author: Valant1s
-version: 1.0.0
-grids:
-  - ISLANDS
-  - MANGROVE
-  - LOW_LANDS
-  - LOW_LANDS
-  - LOW_LANDS
-  - LOW_LANDS
-  - LOW_LANDS
+author: github.com/Valant1s
+version: 1.1.0
 
-frequencies:
-  zone: 2048
+beta:
+  carving: false
 
 blend:
-  enable: true
-  frequency: 0.005
-  amplitude: 4
+  terrain:
+    step: 3
+    elevation: 4
+
+vanilla:
+  mobs: true
+
+# Locatable
+locatable:
+  STRONGHOLD: STRONGHOLD
+
+# Variables
+variables:
+  base: 63
+
+# TODO ###################################
 erode:
   enable: true
   frequency: 0.001
   threshold: 0.0015
   octaves: 5
   grid: "BIOME:RIVER"
-vanilla:
-  mobs: true
+
+# Noise
 noise:
   noise2:
     dimensions: 2
@@ -40,9 +45,48 @@ noise:
     fractal:
       type: FBm
       octaves: 5
-locatable:
-  STRONGHOLD: STRONGHOLD
-variables:
-  base: 63
-#disable:
-#  sapling: true
+
+# Biomes
+biomes:
+  type: PIPELINE
+  biome: MANGROVE
+  resolution: 4
+  blend:
+    amplitude: 1.75
+    noise:
+      type: OpenSimplex2
+      frequency: 0.12
+  image:
+    name: map.jpg
+  pipeline:
+    initial-size: 4
+    source:
+      type: NOISE
+      biomes:
+        TROPICAL_ROCKY_ISLANDS: 1
+        TROPICAL_DRY_BROADLEAF_FOREST: 2
+      noise:
+        type: OpenSimplex2
+        frequency: 0.04
+        fractal:
+          type: FBm
+          octaves: 4
+    stages:
+      - mutate: # Ocean climate distribution
+          type: REPLACE
+          from: "TROPICAL_ROCKY_ISLANDS"
+          to:
+            - "TROPICAL_ROCKY_ISLANDS": 1
+          noise: &climate
+            type: OpenSimplex2
+            salt: 2
+            frequency: 0.025
+      - mutate: # Land climate distribution
+          type: REPLACE
+          from: "TROPICAL_DRY_BROADLEAF_FOREST"
+          to:
+            - "MANGROVE": 1
+            - "TROPICAL_ROCKY_ISLANDS": 1
+            - "TROPICAL_MOIST_BROADLEAF_FOREST": 1
+            - "TROPICAL_DRY_BROADLEAF_FOREST": 1
+          noise: *climate

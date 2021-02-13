@@ -1,8 +1,12 @@
 id: "TROPICAL_MOIST_BROADLEAF_FOREST"
 extends: "ABSTRACT_ORES"
 vanilla: JUNGLE
-erodible: true
-erode: TROPICAL_RIVER
+
+tags:
+  - "LAND"
+
+#erodible: true
+#erode: TROPICAL_RIVER
 
 noise-equation: "((-((y / (base-1))^2)) + 1) + |(noise2(x/3, z/3)+0.025)|/3.5 + |noise2(x/10, z/10)|/5"
 

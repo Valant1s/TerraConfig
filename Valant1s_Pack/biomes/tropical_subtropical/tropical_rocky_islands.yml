@@ -2,6 +2,9 @@ id: "TROPICAL_ROCKY_ISLANDS"
 extends: "ABSTRACT_ORES"
 vanilla: BEACH
 
+tags:
+  - "OCEAN"
+
 noise-equation: "if(
   max(y-51, 0),
   if(
