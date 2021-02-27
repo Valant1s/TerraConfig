@@ -1,12 +1,12 @@
-id: "MANGROVE"
+id: "OCEAN"
 extends: "ABSTRACT_ORES"
-vanilla: BEACH
+vanilla: OCEAN
 
 tags:
   - "WATER"
 
 noise-equation: 
-  "((-((y / (base-4))^2)) + 1) + |(noise2(x/1.5, z/1.5)+0.25)|/5"
+  "((-((y / (base-10))^2)) + 1) + |(noise2(x/1.5, z/1.5)+0.25)|/5"
 
 palette:
   - "BLOCK:minecraft:bedrock": 0
@@ -16,14 +16,6 @@ palette:
   - TROPICAL_OCEAN_LOWER: 54
   - TROPICAL_OCEAN_MIDDLE: 59
   - TROPICAL_CLIFF: 255
-
-trees:
-  - density: 10
-    y:
-      min: 60
-      max: 70
-    items:
-      - MANGROVE: 1
 
 flora:
   - density: 25

@@ -1,0 +1,20 @@
+id: "BEACH"
+#abstract: true
+
+noise-equation: "(-y/64)+1"
+
+extends: "ABSTRACT_ORES"
+vanilla: BEACH
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - TROPICAL_OCEAN_LOWER: 54
+  - TROPICAL_OCEAN_MIDDLE: 59
+  - TROPICAL_BEACH_UPPER: 62
+  - TROPICAL_CLIFF: 255
+
+tags:
+  - "WATER"

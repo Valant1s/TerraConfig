@@ -3,7 +3,7 @@ extends: "ABSTRACT_ORES"
 vanilla: BEACH
 
 tags:
-  - "OCEAN"
+  - "LAND"
 
 noise-equation: "if(
   max(y-51, 0),

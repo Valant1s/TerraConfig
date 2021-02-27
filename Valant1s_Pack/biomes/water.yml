@@ -1,0 +1,13 @@
+id: "WATER"
+#abstract: true
+
+noise-equation: "(-y/64)+1"
+
+extends: "ABSTRACT_ORES"
+vanilla: OCEAN
+
+palette:
+  - "BLOCK:minecraft:bedrock": 255
+
+tags:
+  - "WATER"

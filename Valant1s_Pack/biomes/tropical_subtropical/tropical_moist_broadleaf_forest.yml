@@ -23,7 +23,7 @@ palette:
 
 
 trees:
-  - density: 4
+  - density: 3
     items:
       - JUNGLE_CANOPY: 1
     y:

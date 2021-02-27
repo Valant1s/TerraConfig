@@ -49,7 +49,7 @@ noise:
 # Biomes
 biomes:
   type: PIPELINE
-  biome: MANGROVE
+  biome: TROPICAL_ROCKY_ISLANDS
   resolution: 4
   blend:
     amplitude: 1.75
@@ -59,34 +59,56 @@ biomes:
   image:
     name: map.jpg
   pipeline:
-    initial-size: 4
+    initial-size: 16
     source:
       type: NOISE
       biomes:
-        TROPICAL_ROCKY_ISLANDS: 1
-        TROPICAL_DRY_BROADLEAF_FOREST: 2
+        - LAND: 1
+        - WATER: 1
       noise:
         type: OpenSimplex2
-        frequency: 0.04
+        frequency: 0.02
         fractal:
           type: FBm
           octaves: 4
     stages:
       - mutate: # Ocean climate distribution
           type: REPLACE
-          from: "TROPICAL_ROCKY_ISLANDS"
+          from: "WATER"
           to:
-            - "TROPICAL_ROCKY_ISLANDS": 1
+            - OCEAN: 1
           noise: &climate
             type: OpenSimplex2
             salt: 2
             frequency: 0.025
       - mutate: # Land climate distribution
           type: REPLACE
-          from: "TROPICAL_DRY_BROADLEAF_FOREST"
+          from: "LAND"
           to:
-            - "MANGROVE": 1
-            - "TROPICAL_ROCKY_ISLANDS": 1
-            - "TROPICAL_MOIST_BROADLEAF_FOREST": 1
-            - "TROPICAL_DRY_BROADLEAF_FOREST": 1
-          noise: *climate
+            - TROPICAL_DRY_BROADLEAF_FOREST: 5
+            - TROPICAL_MOIST_BROADLEAF_FOREST: 2
+            #w- MANGROVE: 1
+          noise: &biome-distribute
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.25
+            salt: 6
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 12
+      - mutate: # Mangroves at land/water border
+          type: BORDER
+          from: "LAND"
+          replace: "WATER"
+          to:
+            - BEACH: 1
+          noise:
+            type: Constant
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 11
